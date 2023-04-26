@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-java-springboot-basic-zl6a
     app.kubernetes.io/part-of: my-app-100
-  name: devfile-sample-java-sprin6oq0
+  name: devfile-sample-java-sprin1iu8
   namespace: lpardo-tenant
 spec:
   path: /
