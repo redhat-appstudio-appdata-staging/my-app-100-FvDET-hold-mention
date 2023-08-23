@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-java-springboot-basic-zl6a
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/lpardo-tenant/my-app-100/devfile-sample-java-springboot-basic-zl6a@sha256:c2276b80472e2b9af8486d09ee7da27e67839e630ca053ebe7255b2178ce5336
+        name: my-java-springboot
+        resources: {}
+status: {}
