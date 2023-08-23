@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: devfile-sample-java-springboot-basic-zl6a
     app.kubernetes.io/part-of: my-app-100
   name: devfile-sample-java-springboot-basic-zl6a
-  namespace: lpardo-tenant
 spec:
   replicas: 1
   revisionHistoryLimit: 0
@@ -26,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-java-springboot-basic-zl6a
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads-stage/lpardo-tenant/my-app-100/devfile-sample-java-springboot-basic-zl6a@sha256:c2276b80472e2b9af8486d09ee7da27e67839e630ca053ebe7255b2178ce5336
         name: my-java-springboot
         ports:
         - containerPort: 8081

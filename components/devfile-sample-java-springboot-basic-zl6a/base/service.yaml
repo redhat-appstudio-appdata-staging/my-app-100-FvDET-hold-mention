@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: devfile-sample-java-springboot-basic-zl6a
     app.kubernetes.io/part-of: my-app-100
   name: devfile-sample-java-springboot-basic-zl6a
-  namespace: lpardo-tenant
 spec:
   ports:
   - name: http-8081
